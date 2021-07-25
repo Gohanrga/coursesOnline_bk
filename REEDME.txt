@@ -1,0 +1,9 @@
+After creating the database, run the following query to test the application
+
+INSERT INTO `courses` (`average_rating`,`cost`,`description`,`discount`,`end`,`hours`,`img`,`name`,`rating`,`start`,`title`) VALUES (4.5,6.795,'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur aspernatur necessitatibus voluptate amet, incidunt corrupti mollitia a dicta assumenda officiis vero provident atque quam expedita quasi rerum. Possimus, nesciunt autem.',4.795,'Dec. \'21','3.20','https://4a7efb2d53317100f611-1d7064c4f7b6de25658a4199efb34975.ssl.cf1.rackcdn.com/dark-days-oracle-kills-java-plug-in-dead-showcase_image-9-p-2047.jpg','Java',422,'May \'21','Java Advanced');
+INSERT INTO `courses` (`average_rating`,`cost`,`description`,`discount`,`end`,`hours`,`img`,`name`,`rating`,`start`,`title`) VALUES (4.5,6.795,'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur aspernatur necessitatibus voluptate amet, incidunt corrupti mollitia a dicta assumenda officiis vero provident atque quam expedita quasi rerum. Possimus, nesciunt autem.',4.795,'Dec. \'21','3.20','https://d8285fmxt3duy.cloudfront.net/public/articulos/img/java-script1.jpg','JAvaScript',422,'May \'21','JavaScript Basic');
+
+INSERT INTO `payment` (`code_type`,`cost`,`fees`,`interest`,`save`,`type`) VALUES ('1','$6,795','No processing feed','$4,795','Save $1500 in tuition','PIF (pay in full)');
+INSERT INTO `payment` (`code_type`,`cost`,`fees`,`interest`,`save`,`type`) VALUES ('2','of $399 / Month','No processing feed','0% interest rate','Save $500 in tuition','16 Instalaments');
+INSERT INTO `payment` (`code_type`,`cost`,`fees`,`interest`,`save`,`type`) VALUES ('3','of $299 / Month','No processing feed','5.99% interest rate','Save $250 in tuition','24 Instalaments');
+INSERT INTO `payment` (`code_type`,`cost`,`fees`,`interest`,`save`,`type`) VALUES ('4','of $199 / Month','No processing feed','11.99% interest rate',NULL,'48 Instalaments');
